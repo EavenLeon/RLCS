@@ -8,7 +8,7 @@ import java.lang.reflect.Field;
  * @Description:  
  */
 public class A {
-	public static void main(String[] args) {
+	public static void my() {
 		Lab lab = new Lab();
         for(Field field : lab.getClass().getDeclaredFields()){  
             if(field.isAnnotationPresent(ST.class)){  //如果存在MyTag标签  
